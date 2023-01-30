@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from preview.colorlib.com/theme/deluxe/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Jan 2023 11:34:41 GMT -->
+  <head>
+    <title>Deluxe - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.timepicker.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script nonce="abfaa4cd-959c-49fe-ad26-3d701fcefc19">
+      (function (w, d) {
+        !(function (eK, eL, eM, eN) {
+          eK.zarazData = eK.zarazData || {};
+          eK.zarazData.executed = [];
+          eK.zaraz = { deferred: [], listeners: [] };
+          eK.zaraz.q = [];
+          eK.zaraz._f = function (eO) {
+            return function () {
+              var eP = Array.prototype.slice.call(arguments);
+              eK.zaraz.q.push({ m: eO, a: eP });
+            };
+          };
+          for (const eQ of ["track", "set", "debug"])
+            eK.zaraz[eQ] = eK.zaraz._f(eQ);
+          eK.zaraz.init = () => {
+            var eR = eL.getElementsByTagName(eN)[0],
+              eS = eL.createElement(eN),
+              eT = eL.getElementsByTagName("title")[0];
+            eT && (eK.zarazData.t = eL.getElementsByTagName("title")[0].text);
+            eK.zarazData.x = Math.random();
+            eK.zarazData.w = eK.screen.width;
+            eK.zarazData.h = eK.screen.height;
+            eK.zarazData.j = eK.innerHeight;
+            eK.zarazData.e = eK.innerWidth;
+            eK.zarazData.l = eK.location.href;
+            eK.zarazData.r = eL.referrer;
+            eK.zarazData.k = eK.screen.colorDepth;
+            eK.zarazData.n = eL.characterSet;
+            eK.zarazData.o = new Date().getTimezoneOffset();
+            if (eK.dataLayer)
+              for (const eX of Object.entries(
+                Object.entries(dataLayer).reduce((eY, eZ) => ({
+                  ...eY[1],
+                  ...eZ[1],
+                }))
+              ))
+                zaraz.set(eX[0], eX[1], { scope: "page" });
+            eK.zarazData.q = [];
+            for (; eK.zaraz.q.length; ) {
+              const e_ = eK.zaraz.q.shift();
+              eK.zarazData.q.push(e_);
+            }
+            eS.defer = !0;
+            for (const fa of [localStorage, sessionStorage])
+              Object.keys(fa || {})
+                .filter((fc) => fc.startsWith("_zaraz_"))
+                .forEach((fb) => {
+                  try {
+                    eK.zarazData["z_" + fb.slice(7)] = JSON.parse(
+                      fa.getItem(fb)
+                    );
+                  } catch {
+                    eK.zarazData["z_" + fb.slice(7)] = fa.getItem(fb);
+                  }
+                });
+            eS.referrerPolicy = "origin";
+            eS.src =
+              "../../cdn-cgi/zaraz/sd0d9.js?z=" +
+              btoa(encodeURIComponent(JSON.stringify(eK.zarazData)));
+            eR.parentNode.insertBefore(eS, eR);
+          };
+          ["complete", "interactive"].includes(eL.readyState)
+            ? zaraz.init()
+            : eK.addEventListener("DOMContentLoaded", zaraz.init);
+        })(w, d, 0, "script");
+      })(window, document);
+    </script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index-2.html">VISA CLAP</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index-2.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown2"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Rooms</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown2">
+                <li><a class="dropdown-item" href="">Option 1</a></li>
+                <li><a class="dropdown-item" href="">Option 2</a></li>
+                <li class="dropdown dropdown-submenu dropright">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdown3"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Option 3</a
+                  >
+                  <ul class="dropdown-menu" aria-labelledby="dropdown3">
+                    <li><a class="dropdown-item" href="">Option 1</a></li>
+                    <li><a class="dropdown-item" href="">Option 2</a></li>
+                    <li><a class="dropdown-item" href="">Option 3</a></li>
+                    <li><a class="dropdown-item" href="">Option 4</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="">Option 4</a></li>
+                <li><a class="dropdown-item" href="">Option 5</a></li>
+                <li><a class="dropdown-item" href="">Option 6</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown02"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Resturants</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                <li><a class="dropdown-item" href="">Option 1</a></li>
+                <li><a class="dropdown-item" href="">Option 2</a></li>
+                <li><a class="dropdown-item" href="">Option 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">+919345444156</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0 ml-lg-4">
+            <a href="" class="btn btn-main">Search</a>
+          </form>
+        </div>
+      </div>
+    </nav>  
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/bg_1.jpg" class="d-block " height="500px" width="100%" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bg_2.jpg" class="d-block" height="500px" width="100%"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bg_1.jpg" class="d-block " height="500px" width="100%"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="about" class="section pt-4">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 text-center">
+						<div class="section-title">
+							<p class="section-subtitle">About Us</p>
+							<h2 class="mb-3">Start your holiday today</h2>
+							<span class="section-border"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-7">
+						<img src="https://cdn.pixabay.com/photo/2014/08/11/21/39/wall-416060__340.jpg" alt=""
+							class="img-fluid" style="width:inherit;" >
+					</div>
+					<div class="col-lg-5">
+						<div class="about-content mt-4 mt-lg-0">
+							<h2 class="mb-3">Sports</h2>
+							<h4>New attractions to check out in Dubai
+							</h4>
+							<p>
+								Discover hot new openings and fresh experiences that you will love.
+							</p>
+							<a href="" class="btn btn-main">Read Now</a>
+							<a href="" class="btn btn-main"><i class="fa-regular fa-heart"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-reception-bell"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-2">
+                <h3 class="heading mb-3">25/7 Front Desk</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-serving-dish"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-2">
+                <h3 class="heading mb-3">Restaurant Bar</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex align-sel Searchf-stretch ftco-animate">
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-car"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-2">
+                <h3 class="heading mb-3">Transfer Services</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-spa"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-2">
+                <h3 class="heading mb-3">Spa Suites</h3>
+                <p>
+                  A small river named Duden flows by their place and supplies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="instagram pt-5">
+      <div class="container">
+        <div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <p class="section-subtitle">Welcome to World</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-sm-12 col-md ftco-animate">
+            <a
+              href="images/insta-1.jpg"
+              class="insta-img image-popup"
+              style="background-image: url(images/insta-1.jpg)"
+            >
+              <div class="icon d-flex justify-content-center">
+                <span><h3 style="color: whitesmoke;">Welcome to our Hotel...!</h3>
+                <h5>Have a great day..❤️</h5></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a
+              href="images/insta-2.jpg"
+              class="insta-img image-popup"
+              style="background-image: url(images/insta-2.jpg)"
+            >
+              <div class="icon d-flex justify-content-center">
+                <span><h3 style="color: whitesmoke;">Welcome to our Hotel...!</h3>
+                  <h5>Have a great day..❤️</h5></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a
+              href="images/insta-3.jpg"
+              class="insta-img image-popup"
+              style="background-image: url(images/insta-3.jpg)"
+            >
+              <div class="icon d-flex justify-content-center">
+                <span><h3 style="color: whitesmoke;">Welcome to our Hotel...!</h3>
+                  <h5>Have a great day..❤️</h5></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a
+              href="images/insta-4.jpg"
+              class="insta-img image-popup"
+              style="background-image: url(images/insta-4.jpg)"
+            >
+              <div class="icon d-flex justify-content-center">
+                <span><h3 style="color: whitesmoke;">Welcome to our Hotel...!</h3>
+                  <h5>Have a great day..❤️</h5></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a
+              href="images/insta-5.jpg"
+              class="insta-img image-popup"
+              style="background-image: url(images/insta-5.jpg)"
+            >
+              <div class="icon d-flex justify-content-center">
+                <span><h3 style="color: whitesmoke;">Welcome to our Hotel...!</h3>
+                  <h5>Have a great day..❤️</h5></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section><br>
+    <section id="about" class="section py-0">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 text-center">
+						<div class="section-title">
+							<p class="section-subtitle">Choose Us</p>
+							<h2 class="mb-3">Discover new</h2>
+							<span class="section-border"></span>
+						</div>
+					</div>
+				</div>
+				<div >
+					<div class="d-flex align-items-start">
+						<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+							aria-orientation="vertical">
+							<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+								aria-selected="true">All</button>
+							<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-profile" type="button" role="tab"
+								aria-controls="v-pills-profile" aria-selected="false">Must-See</button>
+							<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-messages" type="button" role="tab"
+								aria-controls="v-pills-messages" aria-selected="false">Adventure</button>
+							<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-settings" type="button" role="tab"
+								aria-controls="v-pills-settings" aria-selected="false">Theme Parks</button>
+							<button class="nav-link" id="v-pills-food-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-food" type="button" role="tab" aria-controls="v-pills-food"
+								aria-selected="false">Food & Drink</button>
+							<button class="nav-link" id="v-pills-sights-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-sights" type="button" role="tab" aria-controls="v-pills-sights"
+								aria-selected="false">Sights & Attractions</button>
+							<button class="nav-link" id="v-pills-entertainment-tab" data-bs-toggle="pill"
+								data-bs-target="#v-pills-entertainment" type="button" role="tab"
+								aria-controls="v-pills-entertainment" aria-selected="false">Entertainment</button>
+						</div>
+						<div class="tab-content" id="v-pills-tabContent">
+							<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+								aria-labelledby="v-pills-home-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">All</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-2">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2022/10/22/14/50/forest-7539355__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-2">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2021/09/25/10/14/flower-6654581__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-2">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2022/10/20/11/26/landscape-7534634__340.jpg"
+											alt="">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+								aria-labelledby="v-pills-profile-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">Must - see</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_960_720.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_960_720.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_960_720.jpg"
+											alt="">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+								aria-labelledby="v-pills-messages-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">Adventure</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2014/09/26/19/45/bedroom-462772__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2014/09/26/19/45/bedroom-462772__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2014/09/26/19/45/bedroom-462772__340.jpg"
+											alt="">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+								aria-labelledby="v-pills-settings-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">Theme Parks</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2017/03/16/21/02/sea-2150245__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2017/03/16/21/02/sea-2150245__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2017/03/16/21/02/sea-2150245__340.jpg"
+											alt="">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-food" role="tabpanel"
+								aria-labelledby="v-pills-food-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">Food & Drink</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://media.istockphoto.com/id/1049342168/photo/friends-gathering-having-italian-food-together.jpg?b=1&s=170667a&w=0&k=20&c=fY1pLuFo5pZg-BnpPni59vaeyJ24Yc-5BozgbSqgeYg="
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://media.istockphoto.com/id/1049342168/photo/friends-gathering-having-italian-food-together.jpg?b=1&s=170667a&w=0&k=20&c=fY1pLuFo5pZg-BnpPni59vaeyJ24Yc-5BozgbSqgeYg="
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://media.istockphoto.com/id/1049342168/photo/friends-gathering-having-italian-food-together.jpg?b=1&s=170667a&w=0&k=20&c=fY1pLuFo5pZg-BnpPni59vaeyJ24Yc-5BozgbSqgeYg="
+											alt="">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-sights" role="tabpanel"
+								aria-labelledby="v-pills-sights-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">Sights & Attractions</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://media.istockphoto.com/id/921956634/photo/golden-gate-bridge-at-sunset-san-francisco-california-usa.jpg?b=1&s=170667a&w=0&k=20&c=BKwRe8BoYOhuoFD618ZnH3Y8WujwC2DNhVUHE4nnodI="
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://media.istockphoto.com/id/921956634/photo/golden-gate-bridge-at-sunset-san-francisco-california-usa.jpg?b=1&s=170667a&w=0&k=20&c=BKwRe8BoYOhuoFD618ZnH3Y8WujwC2DNhVUHE4nnodI="
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://media.istockphoto.com/id/921956634/photo/golden-gate-bridge-at-sunset-san-francisco-california-usa.jpg?b=1&s=170667a&w=0&k=20&c=BKwRe8BoYOhuoFD618ZnH3Y8WujwC2DNhVUHE4nnodI="
+											alt="">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="v-pills-entertainment" role="tabpanel"
+								aria-labelledby="v-pills-entertainment-tab" tabindex="0">
+								<div class="row">
+									<h2 class="text-color mb-4">Entertainment</h2>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2019/08/08/10/45/amusement-park-4392606__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2019/08/08/10/45/amusement-park-4392606__340.jpg"
+											alt="">
+									</div>
+									<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+										<img class="w-100"
+											src="https://cdn.pixabay.com/photo/2019/08/08/10/45/amusement-park-4392606__340.jpg"
+											alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+    <section class="ftco-section">
+      <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+      	<p class="section-subtitle">CHOOSE US</p>
+        <h3 class="mb-3">Latest Posts & Categories</h3>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6">
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-1.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Grilled Beef with potatoes</span></h3>
+      <span class="price">$20.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-2.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Grilled Beef with potatoes</span></h3>
+      <span class="price">$29.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-3.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Grilled Beef with potatoes</span></h3>
+      <span class="price">$20.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-4.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Grilled Beef with potatoes</span></h3>
+      <span class="price">$20.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-6">
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-5.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Grilled Beef with potatoes</span></h3>
+      <span class="price">$49.91</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-6.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Ultimate Overload</span></h3>
+      <span class="price">$20.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-7.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Grilled Beef with potatoes</span></h3>
+      <span class="price">$20.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      <div class="pricing-entry d-flex ftco-animate">
+      <div class="img" style="background-image: url(images/menu-8.jpg);"></div>
+      <div class="desc pl-3">
+      <div class="d-flex text align-items-center">
+      <h3><span>Ham &amp; Pineapple</span></h3>
+      <span class="price">$20.00</span>
+      </div>
+      <div class="d-block">
+      <p>A small river named Duden flows by their place and supplies</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      
+      <footer
+      class="ftco-footer ftco-bg-dark ftco-section"
+      style="
+        background-image: url(https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg); margin-top: 30px;
+      "
+    >
+      <div class="container">
+        <div class="row mb-5">
+          <div>
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Deluxe Hotel</h2>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <ul
+                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
+              >
+                <li class="ftco-animate">
+                  <a href="#"><span class="icon-twitter"></span></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Useful Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Blog</a></li>
+                <li><a href="#" class="py-2 d-block">Rooms</a></li>
+                <li><a href="#" class="py-2 d-block">Amenities</a></li>
+                <li><a href="#" class="py-2 d-block">Gift Card</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Privacy</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Career</a></li>
+                <li><a href="#" class="py-2 d-block">About Us</a></li>
+                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                <li><a href="#" class="py-2 d-block">Services</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li>
+                    <span class="icon icon-map-marker"></span
+                    ><span class="text"
+                      >203 Fake St. Mountain View, San Francisco, California,
+                      USA</span
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="icon icon-phone"></span
+                      ><span class="text">+2 392 3929 210</span></a
+                    >
+                  </li>
+          
+                  <li>
+                    <form>
+                      <div class="d-flex align-items-center justify-content-between">
+
+                        <input type="email" class="col-8 p-2" placeholder="Enter your email"/>
+                        <button class=" col-4 p-2 btn text-white ms-1" style="background: #8D703B;">Subscribe</button>
+  
+                      </div>
+                      <div>
+                        <input class="w-auto" type="checkbox" style="width: 100%;"> I agree to the
+                        <span>&nbsp;terms &amp; conditions</span>
+                      </div>
+                    </form>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.html"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
+      integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
+      data-cf-beacon='{"rayId":"78542454ce6f2e1c","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <!-- Mirrored from preview.colorlib.com/theme/deluxe/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Jan 2023 11:34:41 GMT -->
+</html>
